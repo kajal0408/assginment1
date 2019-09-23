@@ -5,3 +5,7 @@ var reg = /^[\w-\.]+@([\w-]+\.)+[\w-]{2,6}$/;
 
 var t1 = reg.test(email);
 console.log(t1);
+if (!t1)
+{
+    console.log("please fill correct email address")
+}
